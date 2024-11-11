@@ -1,0 +1,65 @@
+/* Static position: element follows normal page flow */
+div.static {
+  position: static;
+  border: 3px solid green;
+}
+
+/* Relative position: element is offset relative to its normal position */
+div.relative {
+  position: relative;
+  border: 3px solid green;
+  left: 30px;
+}
+
+/* Fixed position: element is positioned relative to the viewport */
+div.fixed {
+  position: fixed;
+  border: 3px solid green;
+  bottom: 0;
+  right: 0;
+}
+
+/* Relative container for an absolute-positioned child element */
+div.relative-1 {
+  position: relative;
+  border: 3px solid green;
+  width: 500px;
+  height: 300px;
+}
+
+/* Absolute position: element is positioned within the nearest positioned ancestor */
+div.absolute-1 {
+  position: absolute;
+  border: 3px solid green;
+  right: 0;
+  top: 100px;
+  height: 100px;
+}
+
+/* Sticky position: element sticks to the top when scrolled to its position */
+div.sticky {
+  position: sticky;
+  top: 0;
+  background-color: green;
+  padding: 5px;
+  color: white;
+  border: 1px solid black;
+}
+
+/* Style for the image */
+.optimus {
+  width: 500px;
+}
+
+/* Container for image text overlay */
+.container01 {
+  position: relative;
+}
+
+/* Absolute position for text overlay on image */
+p.text01 {
+  position: absolute;
+  top: 0;
+  color: white;
+  margin: 10px;
+}

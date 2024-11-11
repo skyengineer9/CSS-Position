@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Position</title>
+</head>
+<body>
+  <!-- Sticky element that remains at the top of the page when scrolled to its position -->
+  <div class="sticky">
+    In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
+  </div>
+
+  <!-- Section demonstrating position: static -->
+  <h1>position: static;</h1>
+  <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+
+  <div class="static">
+    This div element has position: static;
+  </div>
+
+  <!-- Section demonstrating position: relative -->
+  <h1>position: relative;</h1>
+  <p>An element with position: relative; is positioned relative to its normal position:</p>
+
+  <div class="relative">
+    This div element has position: relative;
+  </div>
+
+  <!-- Section demonstrating position: fixed -->
+  <h1>position: fixed;</h1>
+  <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+
+  <div class="fixed">
+    This div element has position: fixed;
+  </div>
+
+  <!-- Section demonstrating position: absolute -->
+  <h1>position: absolute;</h1>
+  <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+  <div class="relative-1">
+    This div element has position: relative;
+    <div class="absolute-1">
+      This div element has position: absolute;
+    </div>
+  </div>
+
+  <!-- Section for adding text to an image in the top left corner -->
+  <h1>Image Text</h1>
+  <p>Add some text to an image in the top left corner:</p>
+
+  <div class="container01">
+    <!-- Image with text overlay in the top left corner -->
+    <img src="Optimus.webp" alt="Image of Tesla's Robot" class="optimus">
+    <p class="text01">Top Left</p>
+  </div>
+</body>
+</html>
